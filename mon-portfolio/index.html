@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/assets/base.css"/>
+    <title>Mon Portfolio</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  <!-- En-tête -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis [Votre Nom], un développeur passionné.</p>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Bonjour, je m'appelle BESNARD Sylvain. Je suis en formation de développeur web full stack .</p>
+        
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Projet 1</h3>
+            <p>Description du projet 1.</p>
+            <a href="#">Voir plus</a>
+        </div>
+        <div class="project">
+            <h3>Projet 2</h3>
+            <p>Description du projet 2.</p>
+            <a href="#">Voir plus</a>
+        </div>
+        <!-- Ajoutez d'autres projets ici -->
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Frameworks (React, Vue, etc.)</li>
+            <!-- Ajoutez d'autres compétences ici -->
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="mailto:votre-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
