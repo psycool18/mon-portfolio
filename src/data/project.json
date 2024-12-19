@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "tag": ["HTML", "CSS"],
+            "name": "CV - BESNARD Sylvain",
+            "createDate": "09/03/2024",
+            "description": "Ce projet vise à convertir un CV numérique en format HTML et CSS en vue de son intégration dans une application web professionnelle. L'objectif est de créer un CV en ligne attrayant et accessible sur différents navigateurs et appareils, ce qui permettra de faciliter le partage des compétences et des expériences avec les recruteurs potentiels.",
+            "image": [
+                {
+                    "src":"src/assets/images/projets/Mon-CV-CEF.png",
+                    "alt":"CV BESNARD Sylvain"
+                }
+                
+            ],
+            "link": "https://github.com/psycool18/Mon-CV.git"
+        },
+        {
+            "id": 2,
+            "tag": ["JavaScript"],
+            "name": "Espace Commentaire",
+            "createDate": "28/03/2024",
+            "description": "L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire. Cela implique la mise en place d'un formulaire de saisie, la gestion des erreurs, l'affichage des commentaires.",
+            "image": [
+                {
+                "src":"src/assets/images/projets/Espace_commentaire.png",
+                "alt":"Espace Commentaire"
+                }
+            ],
+            "link": "https://github.com/psycool18/dynamiser-un-commentaire.git"
+        },
+        
+        {
+            "id": 5,
+            "tag": ["Plannification"],
+            "name": "Cahier des charges 'La Socketterie'",
+            "createDate": "25/03/2024",
+            "description": "Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
+            "image": [
+                {
+                    "src":"src/assets/images/projets/image_cahiers_des_charges.png",
+                    "alt":"Cahiers des charges"
+                }
+            ],
+            "link": "https://github.com/psycool18/Cahiers-des-charges.git"
+        }
+    ]
+}
