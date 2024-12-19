@@ -9,13 +9,13 @@ Vous retrouverez dans ce Readme comment installer et ouvrir ce projet.
 
 ## Cloner le projet
 
-Lien du clone : [https://github.com/psycool18/mon-portfolio-CEF.git](https://github.com/psycool18/mon-portfolio-CEF.git)
+Lien du clone : [https://github.com/psycool18/mon-portfolio.git](https://github.com/psycool18/mon-portfolio.git)
 
 1- Ovrez votre terminal dans un nouveau dossier où vous voulez cloner le projet.
 
 2- Taper "git clone" et copier l'URL ci-dessus.
 ```sh
-git clone https://github.com/psycool18/mon-portfolio-CEF.git
+git clone https://github.com/psycool18/mon-portfolio.git
 ```
 
 3- Presser "Entrer" pour créer votre clone local.
