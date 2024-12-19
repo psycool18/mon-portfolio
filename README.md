@@ -26,7 +26,7 @@ Pour pouvoir lancer le projet, vous devez installer npm dans le fichier pour ce 
 
 1- Rentrez dans le dossier cloner.
 ```sh
-cd mon-portfolio-CEF
+cd mon-portfolio
 ```
 
 2- Installez le package.
